@@ -1,0 +1,11 @@
+@mixin box-shadow(){
+    box-shadow: 0 0 5px 2px darken($gray-color, 10%);
+}
+
+@mixin box(){
+    @include box-shadow();
+    background: lighten($gray-color , 10%);
+    padding: 1rem;
+    border-radius: 3px;
+    text-align: center;
+}

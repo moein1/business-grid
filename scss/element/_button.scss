@@ -1,0 +1,10 @@
+.standard-button{
+    color : $white-color;
+    background: lighten($blue-color, 10%);
+    padding: .6rem 1.3rem;
+    transition: background ease 400ms;
+    border-radius: 3px;
+    &:hover{
+        background:$blue-color;
+    }
+}

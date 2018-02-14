@@ -1,0 +1,20 @@
+#gallery{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
+    .gallery-item{
+        transition: opacity ease 400ms;
+        @for $i from 1 through 8{
+            &:nth-child(#{$i}){
+                background-image: url(../../img/img#{$i}.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 30vh;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+        }
+    }
+   
+}

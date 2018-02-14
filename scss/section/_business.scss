@@ -1,0 +1,26 @@
+#business{
+    @include box();
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    .business-image{
+        background-image: url(../../img/business.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+    }
+    .business-side{
+     text-align: left;
+     h2,p{
+        margin-bottom: 20px;
+     }   
+    }
+
+    @media screen and (max-width: 700px) {
+        grid-template-columns: 1fr;
+        a{
+            display: block;
+            text-align: center;
+        }
+    }
+}
