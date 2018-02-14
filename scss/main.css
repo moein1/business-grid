@@ -89,7 +89,7 @@ nav ul {
     #showcase {
       grid-template-areas: 'showcase-image showcase-image' 'showcase-sidebar-a showcase-sidebar-b'; }
       #showcase .showcase-sidebar {
-        height: 35vh; } }
+        height: 40vh; } }
   @media screen and (max-width: 500px) {
     #showcase {
       grid-template-areas: 'showcase-image' 'showcase-sidebar-a' 'showcase-sidebar-b'; }
@@ -109,7 +109,7 @@ nav ul {
     padding: 1rem;
     border-radius: 3px;
     text-align: center;
-    height: 35vh;
+    height: 40vh;
     display: grid;
     justify-content: center;
     align-items: center; }
